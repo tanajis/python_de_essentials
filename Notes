@@ -28,4 +28,4 @@ git init
 Create remote repositoru with same name and add as remote origin
 git remote add origin https://github.com/tanajis/python_de_essentials.git
 git remote show origin
-
+git push --set-upstream origin master
