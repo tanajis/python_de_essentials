@@ -24,3 +24,8 @@ Git
 
 create existing project folder in local as git repo
 git init 
+
+Create remote repositoru with same name and add as remote origin
+git remote add origin https://github.com/tanajis/python_de_essentials.git
+git remote show origin
+
