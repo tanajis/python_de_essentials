@@ -1,0 +1,26 @@
+Useful cammands
+
+Create and start virtual environment:
+python -m venv .venv
+.\.venv\Scripts\activate.ps1
+
+
+Powershell cammands
+Create git ignore file :  ni .gitignore
+.gitignore should be part of the repo
+
+
+# Add to .gitignore file
+echo "__pycache__/" >> .gitignore
+echo "*.pyc" >> .gitignore
+echo "*.pyo" >> .gitignore
+echo "*.log" >> .gitignore
+
+
+git rm -r --cached logging/__pycache__/
+
+===================================================================
+Git 
+
+create existing project folder in local as git repo
+git init 
